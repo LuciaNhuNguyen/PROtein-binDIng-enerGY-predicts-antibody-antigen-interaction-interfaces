@@ -40,7 +40,7 @@ sample
 
 sample.info()
 
-# # Using 'CDRdata_team1.csv' to map back CDR (H1, H2, H3, L1, L2, L3) sequences with respect to pdb-ID
+# # Use 'CDRdata_team1.csv' to map back CDR (H1, H2, H3, L1, L2, L3) sequences with respect to pdb-ID
 
 ref_lst = reference['pdb'].values.tolist()
 filtered_data = sample[sample['PDB'].apply(lambda x: str(x).lower() in ref_lst)]
@@ -83,7 +83,7 @@ result = result.drop('PDB_ID', axis=1) # Delete 'PDB_ID' column
 result.to_csv("result.csv", index=False) # Save 'result' DataFrame to csv file
 result
 
-# # Predict binding affinity using PRODIGY
+# # Use PRODIGY to estimate binding energy (dG) between antibody and antigen for all the given pdbID complexes in “data_team.csv”
 
 # ### Prepare data
 
