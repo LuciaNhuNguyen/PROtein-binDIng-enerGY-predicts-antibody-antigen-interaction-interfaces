@@ -1,5 +1,5 @@
 # PROtein-binDIng-enerGY-predicts-antibody-antigen-interaction-interfaces
-## Project: “Characterizing antibody-antigen interaction interfaces”
+## Project: “Characterizing therapeutic antibody interactions”.
 ### - Mined interaction descriptors:
  + Used Biopython to download, clean up the pdbs and separated the download files into com.pdb (complex), rec.pdb (antibody), and lig.pdb.
  + Counted frequency of amino acids type in each of the CDR sequences.
