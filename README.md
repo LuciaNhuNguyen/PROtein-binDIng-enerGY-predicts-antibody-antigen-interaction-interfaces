@@ -4,7 +4,7 @@
  + Used Biopython to download, clean up the pdbs and separated the download files into com.pdb (complex), rec.pdb (antibody), and lig.pdb.
  + Counted frequency of amino acids type in each of the CDR sequences.
  + Used prodigy to estimate binding energy (dG) between antibody and antigen for all the given pdbID complexes
-### - Expand interaction network used for Machine Learning prediction models.
+### - Expanded the interaction networks used in a pipeline of a graphML-based prediction models.
 
 ## What is PRODIGY / Binding Affinity Prediction Repository?
 
